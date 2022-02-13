@@ -1,0 +1,1 @@
+get-adgroupmember -identity 'GROUP_NAME' -recursive | select samaccountname,name | export-csv -path c:\Temp\UserGroupExport.txt
